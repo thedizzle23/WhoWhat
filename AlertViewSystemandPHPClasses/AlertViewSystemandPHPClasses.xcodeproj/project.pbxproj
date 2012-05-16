@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2653CED15642E8600F4C147 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653CEC15642E8600F4C147 /* UIKit.framework */; };
+		B2653CEF15642E8600F4C147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653CEE15642E8600F4C147 /* Foundation.framework */; };
+		B2653CF115642E8600F4C147 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653CF015642E8600F4C147 /* CoreGraphics.framework */; };
+		B2653CF715642E8600F4C147 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2653CF515642E8600F4C147 /* InfoPlist.strings */; };
+		B2653CF915642E8600F4C147 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2653CF815642E8600F4C147 /* main.m */; };
+		B2653CFD15642E8600F4C147 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2653CFC15642E8600F4C147 /* AppDelegate.m */; };
+		B2653D0015642E8600F4C147 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2653CFE15642E8600F4C147 /* MainStoryboard_iPhone.storyboard */; };
+		B2653D0315642E8600F4C147 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2653D0115642E8600F4C147 /* MainStoryboard_iPad.storyboard */; };
+		B2653D0615642E8600F4C147 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2653D0515642E8600F4C147 /* ViewController.m */; };
+		B2653D0E15642E8600F4C147 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653D0D15642E8600F4C147 /* SenTestingKit.framework */; };
+		B2653D0F15642E8600F4C147 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653CEC15642E8600F4C147 /* UIKit.framework */; };
+		B2653D1015642E8600F4C147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653CEE15642E8600F4C147 /* Foundation.framework */; };
+		B2653D1815642E8600F4C147 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2653D1615642E8600F4C147 /* InfoPlist.strings */; };
+		B2653D1B15642E8600F4C147 /* AlertViewSystemandPHPClassesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2653D1A15642E8600F4C147 /* AlertViewSystemandPHPClassesTests.m */; };
+		B2653D2815642E9B00F4C147 /* UIACtionsheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2653D2615642E9B00F4C147 /* UIACtionsheetController.m */; };
+		B2653D2915642E9B00F4C147 /* UIACtionsheetController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2653D2715642E9B00F4C147 /* UIACtionsheetController.xib */; };
+		B2653D2D15642EA600F4C147 /* EatingGoodFoodController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2653D2B15642EA600F4C147 /* EatingGoodFoodController.m */; };
+		B2653D2E15642EA600F4C147 /* EatingGoodFoodController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2653D2C15642EA600F4C147 /* EatingGoodFoodController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2653D1115642E8600F4C147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2653CDF15642E8600F4C147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2653CE715642E8600F4C147;
+			remoteInfo = AlertViewSystemandPHPClasses;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2653CE815642E8600F4C147 /* AlertViewSystemandPHPClasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertViewSystemandPHPClasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2653CEC15642E8600F4C147 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2653CEE15642E8600F4C147 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2653CF015642E8600F4C147 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2653CF415642E8600F4C147 /* AlertViewSystemandPHPClasses-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlertViewSystemandPHPClasses-Info.plist"; sourceTree = "<group>"; };
+		B2653CF615642E8600F4C147 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2653CF815642E8600F4C147 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2653CFA15642E8600F4C147 /* AlertViewSystemandPHPClasses-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlertViewSystemandPHPClasses-Prefix.pch"; sourceTree = "<group>"; };
+		B2653CFB15642E8600F4C147 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2653CFC15642E8600F4C147 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2653CFF15642E8600F4C147 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B2653D0215642E8600F4C147 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B2653D0415642E8600F4C147 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2653D0515642E8600F4C147 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2653D0C15642E8600F4C147 /* AlertViewSystemandPHPClassesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertViewSystemandPHPClassesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2653D0D15642E8600F4C147 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2653D1515642E8600F4C147 /* AlertViewSystemandPHPClassesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlertViewSystemandPHPClassesTests-Info.plist"; sourceTree = "<group>"; };
+		B2653D1715642E8600F4C147 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2653D1915642E8600F4C147 /* AlertViewSystemandPHPClassesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertViewSystemandPHPClassesTests.h; sourceTree = "<group>"; };
+		B2653D1A15642E8600F4C147 /* AlertViewSystemandPHPClassesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertViewSystemandPHPClassesTests.m; sourceTree = "<group>"; };
+		B2653D2415642E9100F4C147 /* AlertViewSystemandPHPClasses.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AlertViewSystemandPHPClasses.entitlements; sourceTree = "<group>"; };
+		B2653D2515642E9B00F4C147 /* UIACtionsheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIACtionsheetController.h; sourceTree = "<group>"; };
+		B2653D2615642E9B00F4C147 /* UIACtionsheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIACtionsheetController.m; sourceTree = "<group>"; };
+		B2653D2715642E9B00F4C147 /* UIACtionsheetController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIACtionsheetController.xib; sourceTree = "<group>"; };
+		B2653D2A15642EA600F4C147 /* EatingGoodFoodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EatingGoodFoodController.h; sourceTree = "<group>"; };
+		B2653D2B15642EA600F4C147 /* EatingGoodFoodController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EatingGoodFoodController.m; sourceTree = "<group>"; };
+		B2653D2C15642EA600F4C147 /* EatingGoodFoodController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EatingGoodFoodController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2653CE515642E8600F4C147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2653CED15642E8600F4C147 /* UIKit.framework in Frameworks */,
+				B2653CEF15642E8600F4C147 /* Foundation.framework in Frameworks */,
+				B2653CF115642E8600F4C147 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2653D0815642E8600F4C147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2653D0E15642E8600F4C147 /* SenTestingKit.framework in Frameworks */,
+				B2653D0F15642E8600F4C147 /* UIKit.framework in Frameworks */,
+				B2653D1015642E8600F4C147 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2653CDD15642E8600F4C147 = {
+			isa = PBXGroup;
+			children = (
+				B2653D2A15642EA600F4C147 /* EatingGoodFoodController.h */,
+				B2653D2B15642EA600F4C147 /* EatingGoodFoodController.m */,
+				B2653D2C15642EA600F4C147 /* EatingGoodFoodController.xib */,
+				B2653D2515642E9B00F4C147 /* UIACtionsheetController.h */,
+				B2653D2615642E9B00F4C147 /* UIACtionsheetController.m */,
+				B2653D2715642E9B00F4C147 /* UIACtionsheetController.xib */,
+				B2653CF215642E8600F4C147 /* AlertViewSystemandPHPClasses */,
+				B2653D1315642E8600F4C147 /* AlertViewSystemandPHPClassesTests */,
+				B2653CEB15642E8600F4C147 /* Frameworks */,
+				B2653CE915642E8600F4C147 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2653CE915642E8600F4C147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2653CE815642E8600F4C147 /* AlertViewSystemandPHPClasses.app */,
+				B2653D0C15642E8600F4C147 /* AlertViewSystemandPHPClassesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2653CEB15642E8600F4C147 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2653CEC15642E8600F4C147 /* UIKit.framework */,
+				B2653CEE15642E8600F4C147 /* Foundation.framework */,
+				B2653CF015642E8600F4C147 /* CoreGraphics.framework */,
+				B2653D0D15642E8600F4C147 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2653CF215642E8600F4C147 /* AlertViewSystemandPHPClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B2653D2415642E9100F4C147 /* AlertViewSystemandPHPClasses.entitlements */,
+				B2653CFB15642E8600F4C147 /* AppDelegate.h */,
+				B2653CFC15642E8600F4C147 /* AppDelegate.m */,
+				B2653CFE15642E8600F4C147 /* MainStoryboard_iPhone.storyboard */,
+				B2653D0115642E8600F4C147 /* MainStoryboard_iPad.storyboard */,
+				B2653D0415642E8600F4C147 /* ViewController.h */,
+				B2653D0515642E8600F4C147 /* ViewController.m */,
+				B2653CF315642E8600F4C147 /* Supporting Files */,
+			);
+			path = AlertViewSystemandPHPClasses;
+			sourceTree = "<group>";
+		};
+		B2653CF315642E8600F4C147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2653CF415642E8600F4C147 /* AlertViewSystemandPHPClasses-Info.plist */,
+				B2653CF515642E8600F4C147 /* InfoPlist.strings */,
+				B2653CF815642E8600F4C147 /* main.m */,
+				B2653CFA15642E8600F4C147 /* AlertViewSystemandPHPClasses-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2653D1315642E8600F4C147 /* AlertViewSystemandPHPClassesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2653D1915642E8600F4C147 /* AlertViewSystemandPHPClassesTests.h */,
+				B2653D1A15642E8600F4C147 /* AlertViewSystemandPHPClassesTests.m */,
+				B2653D1415642E8600F4C147 /* Supporting Files */,
+			);
+			path = AlertViewSystemandPHPClassesTests;
+			sourceTree = "<group>";
+		};
+		B2653D1415642E8600F4C147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2653D1515642E8600F4C147 /* AlertViewSystemandPHPClassesTests-Info.plist */,
+				B2653D1615642E8600F4C147 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2653CE715642E8600F4C147 /* AlertViewSystemandPHPClasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2653D1E15642E8600F4C147 /* Build configuration list for PBXNativeTarget "AlertViewSystemandPHPClasses" */;
+			buildPhases = (
+				B2653CE415642E8600F4C147 /* Sources */,
+				B2653CE515642E8600F4C147 /* Frameworks */,
+				B2653CE615642E8600F4C147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlertViewSystemandPHPClasses;
+			productName = AlertViewSystemandPHPClasses;
+			productReference = B2653CE815642E8600F4C147 /* AlertViewSystemandPHPClasses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2653D0B15642E8600F4C147 /* AlertViewSystemandPHPClassesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2653D2115642E8600F4C147 /* Build configuration list for PBXNativeTarget "AlertViewSystemandPHPClassesTests" */;
+			buildPhases = (
+				B2653D0715642E8600F4C147 /* Sources */,
+				B2653D0815642E8600F4C147 /* Frameworks */,
+				B2653D0915642E8600F4C147 /* Resources */,
+				B2653D0A15642E8600F4C147 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2653D1215642E8600F4C147 /* PBXTargetDependency */,
+			);
+			name = AlertViewSystemandPHPClassesTests;
+			productName = AlertViewSystemandPHPClassesTests;
+			productReference = B2653D0C15642E8600F4C147 /* AlertViewSystemandPHPClassesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2653CDF15642E8600F4C147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B2653CE215642E8600F4C147 /* Build configuration list for PBXProject "AlertViewSystemandPHPClasses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2653CDD15642E8600F4C147;
+			productRefGroup = B2653CE915642E8600F4C147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2653CE715642E8600F4C147 /* AlertViewSystemandPHPClasses */,
+				B2653D0B15642E8600F4C147 /* AlertViewSystemandPHPClassesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2653CE615642E8600F4C147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2653CF715642E8600F4C147 /* InfoPlist.strings in Resources */,
+				B2653D0015642E8600F4C147 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B2653D0315642E8600F4C147 /* MainStoryboard_iPad.storyboard in Resources */,
+				B2653D2915642E9B00F4C147 /* UIACtionsheetController.xib in Resources */,
+				B2653D2E15642EA600F4C147 /* EatingGoodFoodController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2653D0915642E8600F4C147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2653D1815642E8600F4C147 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2653D0A15642E8600F4C147 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2653CE415642E8600F4C147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2653CF915642E8600F4C147 /* main.m in Sources */,
+				B2653CFD15642E8600F4C147 /* AppDelegate.m in Sources */,
+				B2653D0615642E8600F4C147 /* ViewController.m in Sources */,
+				B2653D2815642E9B00F4C147 /* UIACtionsheetController.m in Sources */,
+				B2653D2D15642EA600F4C147 /* EatingGoodFoodController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2653D0715642E8600F4C147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2653D1B15642E8600F4C147 /* AlertViewSystemandPHPClassesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2653D1215642E8600F4C147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2653CE715642E8600F4C147 /* AlertViewSystemandPHPClasses */;
+			targetProxy = B2653D1115642E8600F4C147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2653CF515642E8600F4C147 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2653CF615642E8600F4C147 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2653CFE15642E8600F4C147 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2653CFF15642E8600F4C147 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B2653D0115642E8600F4C147 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2653D0215642E8600F4C147 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B2653D1615642E8600F4C147 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2653D1715642E8600F4C147 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2653D1C15642E8600F4C147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2653D1D15642E8600F4C147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2653D1F15642E8600F4C147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AlertViewSystemandPHPClasses/AlertViewSystemandPHPClasses.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertViewSystemandPHPClasses/AlertViewSystemandPHPClasses-Prefix.pch";
+				INFOPLIST_FILE = "AlertViewSystemandPHPClasses/AlertViewSystemandPHPClasses-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2653D2015642E8600F4C147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AlertViewSystemandPHPClasses/AlertViewSystemandPHPClasses.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertViewSystemandPHPClasses/AlertViewSystemandPHPClasses-Prefix.pch";
+				INFOPLIST_FILE = "AlertViewSystemandPHPClasses/AlertViewSystemandPHPClasses-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2653D2215642E8600F4C147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlertViewSystemandPHPClasses.app/AlertViewSystemandPHPClasses";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertViewSystemandPHPClasses/AlertViewSystemandPHPClasses-Prefix.pch";
+				INFOPLIST_FILE = "AlertViewSystemandPHPClassesTests/AlertViewSystemandPHPClassesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2653D2315642E8600F4C147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AlertViewSystemandPHPClasses.app/AlertViewSystemandPHPClasses";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AlertViewSystemandPHPClasses/AlertViewSystemandPHPClasses-Prefix.pch";
+				INFOPLIST_FILE = "AlertViewSystemandPHPClassesTests/AlertViewSystemandPHPClassesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2653CE215642E8600F4C147 /* Build configuration list for PBXProject "AlertViewSystemandPHPClasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2653D1C15642E8600F4C147 /* Debug */,
+				B2653D1D15642E8600F4C147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2653D1E15642E8600F4C147 /* Build configuration list for PBXNativeTarget "AlertViewSystemandPHPClasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2653D1F15642E8600F4C147 /* Debug */,
+				B2653D2015642E8600F4C147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2653D2115642E8600F4C147 /* Build configuration list for PBXNativeTarget "AlertViewSystemandPHPClassesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2653D2215642E8600F4C147 /* Debug */,
+				B2653D2315642E8600F4C147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2653CDF15642E8600F4C147 /* Project object */;
+}
