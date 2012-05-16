@@ -25,6 +25,10 @@
 		B2653D2915642E9B00F4C147 /* UIACtionsheetController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2653D2715642E9B00F4C147 /* UIACtionsheetController.xib */; };
 		B2653D2D15642EA600F4C147 /* EatingGoodFoodController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2653D2B15642EA600F4C147 /* EatingGoodFoodController.m */; };
 		B2653D2E15642EA600F4C147 /* EatingGoodFoodController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2653D2C15642EA600F4C147 /* EatingGoodFoodController.xib */; };
+		B2653D3215642F0200F4C147 /* ControlController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2653D3015642F0200F4C147 /* ControlController.m */; };
+		B2653D3315642F0200F4C147 /* ControlController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2653D3115642F0200F4C147 /* ControlController.xib */; };
+		B2653D3515642F0F00F4C147 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653D3415642F0F00F4C147 /* CoreBluetooth.framework */; };
+		B2653D3715642F1600F4C147 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653D3615642F1600F4C147 /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,11 @@
 		B2653D2A15642EA600F4C147 /* EatingGoodFoodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EatingGoodFoodController.h; sourceTree = "<group>"; };
 		B2653D2B15642EA600F4C147 /* EatingGoodFoodController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EatingGoodFoodController.m; sourceTree = "<group>"; };
 		B2653D2C15642EA600F4C147 /* EatingGoodFoodController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EatingGoodFoodController.xib; sourceTree = "<group>"; };
+		B2653D2F15642F0200F4C147 /* ControlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlController.h; sourceTree = "<group>"; };
+		B2653D3015642F0200F4C147 /* ControlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlController.m; sourceTree = "<group>"; };
+		B2653D3115642F0200F4C147 /* ControlController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControlController.xib; sourceTree = "<group>"; };
+		B2653D3415642F0F00F4C147 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B2653D3615642F1600F4C147 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2653D3715642F1600F4C147 /* GameKit.framework in Frameworks */,
+				B2653D3515642F0F00F4C147 /* CoreBluetooth.framework in Frameworks */,
 				B2653CED15642E8600F4C147 /* UIKit.framework in Frameworks */,
 				B2653CEF15642E8600F4C147 /* Foundation.framework in Frameworks */,
 				B2653CF115642E8600F4C147 /* CoreGraphics.framework in Frameworks */,
@@ -94,6 +105,11 @@
 		B2653CDD15642E8600F4C147 = {
 			isa = PBXGroup;
 			children = (
+				B2653D3615642F1600F4C147 /* GameKit.framework */,
+				B2653D3415642F0F00F4C147 /* CoreBluetooth.framework */,
+				B2653D2F15642F0200F4C147 /* ControlController.h */,
+				B2653D3015642F0200F4C147 /* ControlController.m */,
+				B2653D3115642F0200F4C147 /* ControlController.xib */,
 				B2653D2A15642EA600F4C147 /* EatingGoodFoodController.h */,
 				B2653D2B15642EA600F4C147 /* EatingGoodFoodController.m */,
 				B2653D2C15642EA600F4C147 /* EatingGoodFoodController.xib */,
@@ -248,6 +264,7 @@
 				B2653D0315642E8600F4C147 /* MainStoryboard_iPad.storyboard in Resources */,
 				B2653D2915642E9B00F4C147 /* UIACtionsheetController.xib in Resources */,
 				B2653D2E15642EA600F4C147 /* EatingGoodFoodController.xib in Resources */,
+				B2653D3315642F0200F4C147 /* ControlController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +304,7 @@
 				B2653D0615642E8600F4C147 /* ViewController.m in Sources */,
 				B2653D2815642E9B00F4C147 /* UIACtionsheetController.m in Sources */,
 				B2653D2D15642EA600F4C147 /* EatingGoodFoodController.m in Sources */,
+				B2653D3215642F0200F4C147 /* ControlController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
