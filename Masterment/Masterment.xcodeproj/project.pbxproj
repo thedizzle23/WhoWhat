@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2653C9815642E4300F4C147 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653C9715642E4300F4C147 /* UIKit.framework */; };
+		B2653C9A15642E4300F4C147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653C9915642E4300F4C147 /* Foundation.framework */; };
+		B2653C9C15642E4300F4C147 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653C9B15642E4300F4C147 /* CoreGraphics.framework */; };
+		B2653C9E15642E4300F4C147 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653C9D15642E4300F4C147 /* CoreData.framework */; };
+		B2653CA415642E4300F4C147 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2653CA215642E4300F4C147 /* InfoPlist.strings */; };
+		B2653CA615642E4300F4C147 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2653CA515642E4300F4C147 /* main.m */; };
+		B2653CAA15642E4300F4C147 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2653CA915642E4300F4C147 /* AppDelegate.m */; };
+		B2653CAD15642E4300F4C147 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2653CAB15642E4300F4C147 /* MainStoryboard_iPhone.storyboard */; };
+		B2653CB015642E4300F4C147 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2653CAE15642E4300F4C147 /* MainStoryboard_iPad.storyboard */; };
+		B2653CB315642E4300F4C147 /* Masterment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2653CB115642E4300F4C147 /* Masterment.xcdatamodeld */; };
+		B2653CB615642E4300F4C147 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2653CB515642E4300F4C147 /* MasterViewController.m */; };
+		B2653CB915642E4300F4C147 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2653CB815642E4300F4C147 /* DetailViewController.m */; };
+		B2653CC115642E4300F4C147 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653CC015642E4300F4C147 /* SenTestingKit.framework */; };
+		B2653CC215642E4300F4C147 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653C9715642E4300F4C147 /* UIKit.framework */; };
+		B2653CC315642E4300F4C147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653C9915642E4300F4C147 /* Foundation.framework */; };
+		B2653CC415642E4300F4C147 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2653C9D15642E4300F4C147 /* CoreData.framework */; };
+		B2653CCC15642E4300F4C147 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2653CCA15642E4300F4C147 /* InfoPlist.strings */; };
+		B2653CCF15642E4300F4C147 /* MastermentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2653CCE15642E4300F4C147 /* MastermentTests.m */; };
+		B2653CDB15642E5400F4C147 /* TargetClasstwo.m in Sources */ = {isa = PBXBuildFile; fileRef = B2653CD915642E5400F4C147 /* TargetClasstwo.m */; };
+		B2653CDC15642E5400F4C147 /* TargetClasstwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2653CDA15642E5400F4C147 /* TargetClasstwo.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2653CC515642E4300F4C147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2653C8A15642E4200F4C147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2653C9215642E4200F4C147;
+			remoteInfo = Masterment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2653C9315642E4300F4C147 /* Masterment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Masterment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2653C9715642E4300F4C147 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2653C9915642E4300F4C147 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2653C9B15642E4300F4C147 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2653C9D15642E4300F4C147 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B2653CA115642E4300F4C147 /* Masterment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Masterment-Info.plist"; sourceTree = "<group>"; };
+		B2653CA315642E4300F4C147 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2653CA515642E4300F4C147 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2653CA715642E4300F4C147 /* Masterment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Masterment-Prefix.pch"; sourceTree = "<group>"; };
+		B2653CA815642E4300F4C147 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2653CA915642E4300F4C147 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2653CAC15642E4300F4C147 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B2653CAF15642E4300F4C147 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B2653CB215642E4300F4C147 /* Masterment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Masterment.xcdatamodel; sourceTree = "<group>"; };
+		B2653CB415642E4300F4C147 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		B2653CB515642E4300F4C147 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		B2653CB715642E4300F4C147 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B2653CB815642E4300F4C147 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B2653CBF15642E4300F4C147 /* MastermentTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MastermentTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2653CC015642E4300F4C147 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2653CC915642E4300F4C147 /* MastermentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MastermentTests-Info.plist"; sourceTree = "<group>"; };
+		B2653CCB15642E4300F4C147 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2653CCD15642E4300F4C147 /* MastermentTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MastermentTests.h; sourceTree = "<group>"; };
+		B2653CCE15642E4300F4C147 /* MastermentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MastermentTests.m; sourceTree = "<group>"; };
+		B2653CD815642E5400F4C147 /* TargetClasstwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetClasstwo.h; sourceTree = "<group>"; };
+		B2653CD915642E5400F4C147 /* TargetClasstwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetClasstwo.m; sourceTree = "<group>"; };
+		B2653CDA15642E5400F4C147 /* TargetClasstwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TargetClasstwo.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2653C9015642E4200F4C147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2653C9815642E4300F4C147 /* UIKit.framework in Frameworks */,
+				B2653C9A15642E4300F4C147 /* Foundation.framework in Frameworks */,
+				B2653C9C15642E4300F4C147 /* CoreGraphics.framework in Frameworks */,
+				B2653C9E15642E4300F4C147 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2653CBB15642E4300F4C147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2653CC115642E4300F4C147 /* SenTestingKit.framework in Frameworks */,
+				B2653CC215642E4300F4C147 /* UIKit.framework in Frameworks */,
+				B2653CC315642E4300F4C147 /* Foundation.framework in Frameworks */,
+				B2653CC415642E4300F4C147 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2653C8815642E4200F4C147 = {
+			isa = PBXGroup;
+			children = (
+				B2653CD815642E5400F4C147 /* TargetClasstwo.h */,
+				B2653CD915642E5400F4C147 /* TargetClasstwo.m */,
+				B2653CDA15642E5400F4C147 /* TargetClasstwo.xib */,
+				B2653C9F15642E4300F4C147 /* Masterment */,
+				B2653CC715642E4300F4C147 /* MastermentTests */,
+				B2653C9615642E4300F4C147 /* Frameworks */,
+				B2653C9415642E4300F4C147 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2653C9415642E4300F4C147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2653C9315642E4300F4C147 /* Masterment.app */,
+				B2653CBF15642E4300F4C147 /* MastermentTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2653C9615642E4300F4C147 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2653C9715642E4300F4C147 /* UIKit.framework */,
+				B2653C9915642E4300F4C147 /* Foundation.framework */,
+				B2653C9B15642E4300F4C147 /* CoreGraphics.framework */,
+				B2653C9D15642E4300F4C147 /* CoreData.framework */,
+				B2653CC015642E4300F4C147 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2653C9F15642E4300F4C147 /* Masterment */ = {
+			isa = PBXGroup;
+			children = (
+				B2653CA815642E4300F4C147 /* AppDelegate.h */,
+				B2653CA915642E4300F4C147 /* AppDelegate.m */,
+				B2653CAB15642E4300F4C147 /* MainStoryboard_iPhone.storyboard */,
+				B2653CAE15642E4300F4C147 /* MainStoryboard_iPad.storyboard */,
+				B2653CB415642E4300F4C147 /* MasterViewController.h */,
+				B2653CB515642E4300F4C147 /* MasterViewController.m */,
+				B2653CB715642E4300F4C147 /* DetailViewController.h */,
+				B2653CB815642E4300F4C147 /* DetailViewController.m */,
+				B2653CB115642E4300F4C147 /* Masterment.xcdatamodeld */,
+				B2653CA015642E4300F4C147 /* Supporting Files */,
+			);
+			path = Masterment;
+			sourceTree = "<group>";
+		};
+		B2653CA015642E4300F4C147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2653CA115642E4300F4C147 /* Masterment-Info.plist */,
+				B2653CA215642E4300F4C147 /* InfoPlist.strings */,
+				B2653CA515642E4300F4C147 /* main.m */,
+				B2653CA715642E4300F4C147 /* Masterment-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2653CC715642E4300F4C147 /* MastermentTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2653CCD15642E4300F4C147 /* MastermentTests.h */,
+				B2653CCE15642E4300F4C147 /* MastermentTests.m */,
+				B2653CC815642E4300F4C147 /* Supporting Files */,
+			);
+			path = MastermentTests;
+			sourceTree = "<group>";
+		};
+		B2653CC815642E4300F4C147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2653CC915642E4300F4C147 /* MastermentTests-Info.plist */,
+				B2653CCA15642E4300F4C147 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2653C9215642E4200F4C147 /* Masterment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2653CD215642E4300F4C147 /* Build configuration list for PBXNativeTarget "Masterment" */;
+			buildPhases = (
+				B2653C8F15642E4200F4C147 /* Sources */,
+				B2653C9015642E4200F4C147 /* Frameworks */,
+				B2653C9115642E4200F4C147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masterment;
+			productName = Masterment;
+			productReference = B2653C9315642E4300F4C147 /* Masterment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2653CBE15642E4300F4C147 /* MastermentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2653CD515642E4300F4C147 /* Build configuration list for PBXNativeTarget "MastermentTests" */;
+			buildPhases = (
+				B2653CBA15642E4300F4C147 /* Sources */,
+				B2653CBB15642E4300F4C147 /* Frameworks */,
+				B2653CBC15642E4300F4C147 /* Resources */,
+				B2653CBD15642E4300F4C147 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2653CC615642E4300F4C147 /* PBXTargetDependency */,
+			);
+			name = MastermentTests;
+			productName = MastermentTests;
+			productReference = B2653CBF15642E4300F4C147 /* MastermentTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2653C8A15642E4200F4C147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B2653C8D15642E4200F4C147 /* Build configuration list for PBXProject "Masterment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2653C8815642E4200F4C147;
+			productRefGroup = B2653C9415642E4300F4C147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2653C9215642E4200F4C147 /* Masterment */,
+				B2653CBE15642E4300F4C147 /* MastermentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2653C9115642E4200F4C147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2653CA415642E4300F4C147 /* InfoPlist.strings in Resources */,
+				B2653CAD15642E4300F4C147 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B2653CB015642E4300F4C147 /* MainStoryboard_iPad.storyboard in Resources */,
+				B2653CDC15642E5400F4C147 /* TargetClasstwo.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2653CBC15642E4300F4C147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2653CCC15642E4300F4C147 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2653CBD15642E4300F4C147 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2653C8F15642E4200F4C147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2653CA615642E4300F4C147 /* main.m in Sources */,
+				B2653CAA15642E4300F4C147 /* AppDelegate.m in Sources */,
+				B2653CB315642E4300F4C147 /* Masterment.xcdatamodeld in Sources */,
+				B2653CB615642E4300F4C147 /* MasterViewController.m in Sources */,
+				B2653CB915642E4300F4C147 /* DetailViewController.m in Sources */,
+				B2653CDB15642E5400F4C147 /* TargetClasstwo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2653CBA15642E4300F4C147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2653CCF15642E4300F4C147 /* MastermentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2653CC615642E4300F4C147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2653C9215642E4200F4C147 /* Masterment */;
+			targetProxy = B2653CC515642E4300F4C147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2653CA215642E4300F4C147 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2653CA315642E4300F4C147 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2653CAB15642E4300F4C147 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2653CAC15642E4300F4C147 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B2653CAE15642E4300F4C147 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2653CAF15642E4300F4C147 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B2653CCA15642E4300F4C147 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2653CCB15642E4300F4C147 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2653CD015642E4300F4C147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2653CD115642E4300F4C147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2653CD315642E4300F4C147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Masterment/Masterment-Prefix.pch";
+				INFOPLIST_FILE = "Masterment/Masterment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2653CD415642E4300F4C147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Masterment/Masterment-Prefix.pch";
+				INFOPLIST_FILE = "Masterment/Masterment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2653CD615642E4300F4C147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Masterment.app/Masterment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Masterment/Masterment-Prefix.pch";
+				INFOPLIST_FILE = "MastermentTests/MastermentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2653CD715642E4300F4C147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Masterment.app/Masterment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Masterment/Masterment-Prefix.pch";
+				INFOPLIST_FILE = "MastermentTests/MastermentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2653C8D15642E4200F4C147 /* Build configuration list for PBXProject "Masterment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2653CD015642E4300F4C147 /* Debug */,
+				B2653CD115642E4300F4C147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2653CD215642E4300F4C147 /* Build configuration list for PBXNativeTarget "Masterment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2653CD315642E4300F4C147 /* Debug */,
+				B2653CD415642E4300F4C147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2653CD515642E4300F4C147 /* Build configuration list for PBXNativeTarget "MastermentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2653CD615642E4300F4C147 /* Debug */,
+				B2653CD715642E4300F4C147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2653CB115642E4300F4C147 /* Masterment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2653CB215642E4300F4C147 /* Masterment.xcdatamodel */,
+			);
+			currentVersion = B2653CB215642E4300F4C147 /* Masterment.xcdatamodel */;
+			path = Masterment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2653C8A15642E4200F4C147 /* Project object */;
+}
